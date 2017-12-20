@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD718D881FEAACB000605057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD718D871FEAACB000605057 /* AppDelegate.swift */; };
+		AD718D8A1FEAACB000605057 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD718D891FEAACB000605057 /* ViewController.swift */; };
+		AD718D8D1FEAACB000605057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD718D8B1FEAACB000605057 /* Main.storyboard */; };
+		AD718D8F1FEAACB000605057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD718D8E1FEAACB000605057 /* Assets.xcassets */; };
+		AD718D921FEAACB000605057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD718D901FEAACB000605057 /* LaunchScreen.storyboard */; };
+		AD718D9D1FEAACB000605057 /* TQBarrageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD718D9C1FEAACB000605057 /* TQBarrageTests.swift */; };
+		AD718DAB1FEAAD1700605057 /* Barrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD718DA81FEAAD1600605057 /* Barrage.swift */; };
+		AD718DAC1FEAAD1700605057 /* BarrageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD718DA91FEAAD1600605057 /* BarrageFactory.swift */; };
+		AD718DAD1FEAAD1700605057 /* WalkTextBarrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD718DAA1FEAAD1600605057 /* WalkTextBarrage.swift */; };
+		AD718DB51FEAAD2700605057 /* BarrageConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD718DAF1FEAAD2700605057 /* BarrageConfiguration.swift */; };
+		AD718DB61FEAAD2700605057 /* BarrageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD718DB01FEAAD2700605057 /* BarrageContainer.swift */; };
+		AD718DB71FEAAD2700605057 /* BarrageDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD718DB11FEAAD2700605057 /* BarrageDescriptor.swift */; };
+		AD718DB81FEAAD2700605057 /* BarrageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD718DB21FEAAD2700605057 /* BarrageFilter.swift */; };
+		AD718DB91FEAAD2700605057 /* BarrageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD718DB31FEAAD2700605057 /* BarrageRenderer.swift */; };
+		AD718DBA1FEAAD2700605057 /* BarrageRetainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD718DB41FEAAD2700605057 /* BarrageRetainer.swift */; };
+		AD718DBD1FEAAD3E00605057 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD718DBC1FEAAD3E00605057 /* TimeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD718D991FEAACB000605057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD718D7C1FEAACB000605057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD718D831FEAACB000605057;
+			remoteInfo = TQBarrage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD718D841FEAACB000605057 /* TQBarrage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQBarrage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD718D871FEAACB000605057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD718D891FEAACB000605057 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD718D8C1FEAACB000605057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD718D8E1FEAACB000605057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD718D911FEAACB000605057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD718D931FEAACB000605057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD718D981FEAACB000605057 /* TQBarrageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TQBarrageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD718D9C1FEAACB000605057 /* TQBarrageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TQBarrageTests.swift; sourceTree = "<group>"; };
+		AD718D9E1FEAACB000605057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD718DA81FEAAD1600605057 /* Barrage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Barrage.swift; sourceTree = "<group>"; };
+		AD718DA91FEAAD1600605057 /* BarrageFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageFactory.swift; sourceTree = "<group>"; };
+		AD718DAA1FEAAD1600605057 /* WalkTextBarrage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkTextBarrage.swift; sourceTree = "<group>"; };
+		AD718DAF1FEAAD2700605057 /* BarrageConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageConfiguration.swift; sourceTree = "<group>"; };
+		AD718DB01FEAAD2700605057 /* BarrageContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageContainer.swift; sourceTree = "<group>"; };
+		AD718DB11FEAAD2700605057 /* BarrageDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageDescriptor.swift; sourceTree = "<group>"; };
+		AD718DB21FEAAD2700605057 /* BarrageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageFilter.swift; sourceTree = "<group>"; };
+		AD718DB31FEAAD2700605057 /* BarrageRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageRenderer.swift; sourceTree = "<group>"; };
+		AD718DB41FEAAD2700605057 /* BarrageRetainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarrageRetainer.swift; sourceTree = "<group>"; };
+		AD718DBC1FEAAD3E00605057 /* TimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD718D811FEAACB000605057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD718D951FEAACB000605057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD718D7B1FEAACB000605057 = {
+			isa = PBXGroup;
+			children = (
+				AD718D861FEAACB000605057 /* TQBarrage */,
+				AD718D9B1FEAACB000605057 /* TQBarrageTests */,
+				AD718D851FEAACB000605057 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD718D851FEAACB000605057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD718D841FEAACB000605057 /* TQBarrage.app */,
+				AD718D981FEAACB000605057 /* TQBarrageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD718D861FEAACB000605057 /* TQBarrage */ = {
+			isa = PBXGroup;
+			children = (
+				AD718DBB1FEAAD3E00605057 /* Views */,
+				AD718DAE1FEAAD2700605057 /* BarrageEngine */,
+				AD718DA71FEAAD1600605057 /* Barrage */,
+				AD718D871FEAACB000605057 /* AppDelegate.swift */,
+				AD718D891FEAACB000605057 /* ViewController.swift */,
+				AD718D8B1FEAACB000605057 /* Main.storyboard */,
+				AD718D8E1FEAACB000605057 /* Assets.xcassets */,
+				AD718D901FEAACB000605057 /* LaunchScreen.storyboard */,
+				AD718D931FEAACB000605057 /* Info.plist */,
+			);
+			path = TQBarrage;
+			sourceTree = "<group>";
+		};
+		AD718D9B1FEAACB000605057 /* TQBarrageTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD718D9C1FEAACB000605057 /* TQBarrageTests.swift */,
+				AD718D9E1FEAACB000605057 /* Info.plist */,
+			);
+			path = TQBarrageTests;
+			sourceTree = "<group>";
+		};
+		AD718DA71FEAAD1600605057 /* Barrage */ = {
+			isa = PBXGroup;
+			children = (
+				AD718DA81FEAAD1600605057 /* Barrage.swift */,
+				AD718DA91FEAAD1600605057 /* BarrageFactory.swift */,
+				AD718DAA1FEAAD1600605057 /* WalkTextBarrage.swift */,
+			);
+			path = Barrage;
+			sourceTree = "<group>";
+		};
+		AD718DAE1FEAAD2700605057 /* BarrageEngine */ = {
+			isa = PBXGroup;
+			children = (
+				AD718DAF1FEAAD2700605057 /* BarrageConfiguration.swift */,
+				AD718DB01FEAAD2700605057 /* BarrageContainer.swift */,
+				AD718DB11FEAAD2700605057 /* BarrageDescriptor.swift */,
+				AD718DB21FEAAD2700605057 /* BarrageFilter.swift */,
+				AD718DB31FEAAD2700605057 /* BarrageRenderer.swift */,
+				AD718DB41FEAAD2700605057 /* BarrageRetainer.swift */,
+			);
+			path = BarrageEngine;
+			sourceTree = "<group>";
+		};
+		AD718DBB1FEAAD3E00605057 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD718DBC1FEAAD3E00605057 /* TimeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD718D831FEAACB000605057 /* TQBarrage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD718DA11FEAACB000605057 /* Build configuration list for PBXNativeTarget "TQBarrage" */;
+			buildPhases = (
+				AD718D801FEAACB000605057 /* Sources */,
+				AD718D811FEAACB000605057 /* Frameworks */,
+				AD718D821FEAACB000605057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TQBarrage;
+			productName = TQBarrage;
+			productReference = AD718D841FEAACB000605057 /* TQBarrage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD718D971FEAACB000605057 /* TQBarrageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD718DA41FEAACB000605057 /* Build configuration list for PBXNativeTarget "TQBarrageTests" */;
+			buildPhases = (
+				AD718D941FEAACB000605057 /* Sources */,
+				AD718D951FEAACB000605057 /* Frameworks */,
+				AD718D961FEAACB000605057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD718D9A1FEAACB000605057 /* PBXTargetDependency */,
+			);
+			name = TQBarrageTests;
+			productName = TQBarrageTests;
+			productReference = AD718D981FEAACB000605057 /* TQBarrageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD718D7C1FEAACB000605057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Guo Zhiqiang";
+				TargetAttributes = {
+					AD718D831FEAACB000605057 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AD718D971FEAACB000605057 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD718D831FEAACB000605057;
+					};
+				};
+			};
+			buildConfigurationList = AD718D7F1FEAACB000605057 /* Build configuration list for PBXProject "TQBarrage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD718D7B1FEAACB000605057;
+			productRefGroup = AD718D851FEAACB000605057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD718D831FEAACB000605057 /* TQBarrage */,
+				AD718D971FEAACB000605057 /* TQBarrageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD718D821FEAACB000605057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD718D921FEAACB000605057 /* LaunchScreen.storyboard in Resources */,
+				AD718D8F1FEAACB000605057 /* Assets.xcassets in Resources */,
+				AD718D8D1FEAACB000605057 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD718D961FEAACB000605057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD718D801FEAACB000605057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD718DAB1FEAAD1700605057 /* Barrage.swift in Sources */,
+				AD718D8A1FEAACB000605057 /* ViewController.swift in Sources */,
+				AD718DB61FEAAD2700605057 /* BarrageContainer.swift in Sources */,
+				AD718DAD1FEAAD1700605057 /* WalkTextBarrage.swift in Sources */,
+				AD718DB81FEAAD2700605057 /* BarrageFilter.swift in Sources */,
+				AD718D881FEAACB000605057 /* AppDelegate.swift in Sources */,
+				AD718DB71FEAAD2700605057 /* BarrageDescriptor.swift in Sources */,
+				AD718DB91FEAAD2700605057 /* BarrageRenderer.swift in Sources */,
+				AD718DAC1FEAAD1700605057 /* BarrageFactory.swift in Sources */,
+				AD718DB51FEAAD2700605057 /* BarrageConfiguration.swift in Sources */,
+				AD718DBA1FEAAD2700605057 /* BarrageRetainer.swift in Sources */,
+				AD718DBD1FEAAD3E00605057 /* TimeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD718D941FEAACB000605057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD718D9D1FEAACB000605057 /* TQBarrageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD718D9A1FEAACB000605057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD718D831FEAACB000605057 /* TQBarrage */;
+			targetProxy = AD718D991FEAACB000605057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD718D8B1FEAACB000605057 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD718D8C1FEAACB000605057 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD718D901FEAACB000605057 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD718D911FEAACB000605057 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD718D9F1FEAACB000605057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD718DA01FEAACB000605057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD718DA21FEAACB000605057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS86A5N9W7;
+				INFOPLIST_FILE = TQBarrage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gzq.TQBarrage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD718DA31FEAACB000605057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS86A5N9W7;
+				INFOPLIST_FILE = TQBarrage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gzq.TQBarrage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD718DA51FEAACB000605057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS86A5N9W7;
+				INFOPLIST_FILE = TQBarrageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gzq.TQBarrageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TQBarrage.app/TQBarrage";
+			};
+			name = Debug;
+		};
+		AD718DA61FEAACB000605057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS86A5N9W7;
+				INFOPLIST_FILE = TQBarrageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gzq.TQBarrageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TQBarrage.app/TQBarrage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD718D7F1FEAACB000605057 /* Build configuration list for PBXProject "TQBarrage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD718D9F1FEAACB000605057 /* Debug */,
+				AD718DA01FEAACB000605057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD718DA11FEAACB000605057 /* Build configuration list for PBXNativeTarget "TQBarrage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD718DA21FEAACB000605057 /* Debug */,
+				AD718DA31FEAACB000605057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD718DA41FEAACB000605057 /* Build configuration list for PBXNativeTarget "TQBarrageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD718DA51FEAACB000605057 /* Debug */,
+				AD718DA61FEAACB000605057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD718D7C1FEAACB000605057 /* Project object */;
+}
